@@ -1,0 +1,19 @@
+/* Global Styles */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+.featured-products .card > .card-img-top {
+  object-fit: cover;
+  height: 500px;
+}
+
+.testimonials .card img {
+  height: 230px;
+}
+
+/* .row {
+  padding-bottom: 5%;
+} */

@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>E-commerce Website</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+</head>
+
+<body>
+  <header>
+    <!-- The nav element is a pre-existing Bootstrap element-->
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e3f2fd;">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Chair co.</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+          aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+          <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Promotions</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Spaces</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Chairs
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                <li><a class="dropdown-item" href="#">Indoor</a></li>
+                <li><a class="dropdown-item" href="#">Outdoor</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled">Coming soon!</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-primary" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <section class="featured-products container my-5">
+    <h2>Featured Products</h2>
+    <div class="row container g-4 pb-4">
+      <!-- bootstrap card -->
+      <div class=" col-xxl-4 col-md-4 col-xs-12">
+        <div class="card">
+          <img class="card-img-top" src="assets/img1.jpg" alt="First Product">
+          <div class="card-body">
+            <h5 class="card-title">Product 1</h5>
+            <p class="card-text">The ergonomic design of this chair promotes better posture and comfort.</p>
+            <button type="button" class="btn btn-primary cart-btn">Add to Cart</button>
+            <button type="button" class="btn btn-primary wishlist-btn">Add to Wishlist</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-xxl-4  col-md-4 col-xs-12">
+        <div class="card">
+          <img class="card-img-top" src="assets/img2.jpg" alt="Second Product">
+          <div class="card-body">
+            <h5 class="card-title">Product 2</h5>
+            <p class="card-text">Add a touch of elegance to your home or office with this stylish chair.</p>
+            <button type="button" class="btn btn-primary cart-btn">Add to Cart</button>
+            <button type="button" class="btn btn-primary wishlist-btn">Add to Wishlist</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-xxl-4 col-md-4 col-xs-12">
+        <div class="card">
+          <img class="card-img-top" src="assets/img3.jpg" alt="Third Product">
+          <div class="card-body">
+            <h5 class="card-title">Product 3</h5>
+            <p class="card-text">This chair is made with premium materials and built to last.
+            </p>
+            <button type="button" class="btn btn-primary cart-btn">Add to Cart</button>
+            <button type="button" class="btn btn-primary wishlist-btn">Add to Wishlist</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row container g-4">
+      <!-- bootstrap card -->
+      <div class="col-xxl-4 col-md-4 col-xs-12">
+        <div class="card">
+          <img class="card-img-top" src="assets/img3.jpg" alt="Forth Product">
+          <div class="card-body">
+            <h5 class="card-title">Product 4</h5>
+            <p class="card-text">With adjustable height and tilt, this chair is perfect for any workspace.
+            </p>
+            <button type="button" class="btn btn-primary cart-btn">Add to Cart</button>
+            <button type="button" class="btn btn-primary wishlist-btn">Add to Wishlist</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-xxl-4 col-md-4 col-xs-12">
+        <div class="card">
+          <img class="card-img-top" src="assets/img2.jpg" alt="Fifth Product">
+          <div class="card-body">
+            <h5 class="card-title">Product 5</h5>
+            <p class="card-text">Relax in style with this luxurious chair, featuring plush cushioning and support.
+            </p>
+            <button type="button" class="btn btn-primary cart-btn">Add to Cart</button>
+            <button type="button" class="btn btn-primary wishlist-btn">Add to Wishlist</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-xxl-4 col-md-4 col-xs-12">
+        <div class="card">
+          <img class="card-img-top" src="assets/img1.jpg" alt="Sixth Product">
+          <div class="card-body">
+            <h5 class="card-title">Product 6</h5>
+            <p class="card-text">This chair is perfect for small spaces, with a compact yet comfortable design.</p>
+            <button type="button" class="btn btn-primary cart-btn">Add to Cart</button>
+            <button type="button" class="btn btn-primary wishlist-btn">Add to Wishlist</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr>
+  </section>
+
+  <section class="testimonials container">
+    <h2>Testimonials</h2>
+
+    <div class="row g-2">
+      <div class="col-xxl-4">
+        <div class="card mb-3" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="assets/Person1.jpg" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Michael Nguyen</h5>
+                <p class="card-text">"These chairs have made working from home so much more comfortable. They're sturdy,
+                  supportive, and look great in my home office. Highly recommend!"</p>
+                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-xxl-4">
+        <div class="card mb-3" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="assets/Person2.jpg" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Olivia Thompson</h5>
+                <p class="card-text">"I was hesitant to order chairs online, but I'm so glad I did! The quality is
+                  amazing and they're so comfortable. Thank you for a great product!"</p>
+                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-xxl-4">
+        <div class="card mb-3" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="assets/Person3.jpg" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Sean O'Malley</h5>
+                <p class="card-text">"I recently purchased chairs for my home office and they have made all the
+                  difference. They're durable, stylish, and comfortable. I couldn't be happier!"</p>
+                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="text-center text-lg-start bg-white text-muted">
+    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+    </section>
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        <div class="row mt-3">
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <h6 class="text-uppercase fw-bold mb-4">
+              Chair co.
+            </h6>
+            <p>
+              "At Chair co, we believe that comfort and style shouldn't be mutually exclusive. That's why we offer a
+              wide range of chairs designed for any space."
+            </p>
+          </div>
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <h6 class="text-uppercase fw-bold mb-4">
+              Products
+            </h6>
+            <p>
+              <a href="#!" class="text-reset">Office chairs</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Conference Chairs</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Stools</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Sofas</a>
+            </p>
+          </div>
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <h6 class="text-uppercase fw-bold mb-4">
+              Useful links
+            </h6>
+            <p>
+              <a href="#!" class="text-reset">Promotions</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Spaces</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Order now</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Coming soon!</a>
+            </p>
+          </div>
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+            <p>4.Privet Drive, Little Whinging</p>
+            <p>
+              info@example.com
+            </p>
+            <p>+44 303 123 7300</p>
+            <p>+44 303 123 7300</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Copyright -->
+    <div class="text-center p-4" style="background-color: #e3f2fd;">
+      <p>&copy; 2023 E-commerce Website. All rights reserved.</p>
+
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
+
+  <script src="main.js"></script>
+
+</body>
+
+</html>
